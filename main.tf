@@ -12,7 +12,7 @@ terraform {
   required_version = "~> 1.0.0"
 
   backend "remote" {
-    hostname = "app.terraform.io"
+    hostname     = "app.terraform.io"
     organization = "bxb"
 
     workspaces {
